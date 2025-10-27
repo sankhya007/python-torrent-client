@@ -19,11 +19,14 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.pytest_cache/
+.mypy_cache/
 
 # Virtual environments
 venv/
 env/
 ENV/
+.venv/
 
 # IDE
 .vscode/
@@ -31,11 +34,16 @@ ENV/
 *.swp
 *.swo
 *~
+.nova/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
 
 # OS
 .DS_Store
 Thumbs.db
 desktop.ini
+._*
 
 # Torrent files
 *.torrent
@@ -46,6 +54,7 @@ downloads/
 *.bin
 *.part
 *.downloading
+*.!qb
 
 # Logs
 *.log
@@ -54,7 +63,31 @@ logs/
 # Temporary files
 *.tmp
 *.temp
+.cache/
 
 # Database files
 *.db
 *.sqlite
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Configuration files (keep these if you want to track config changes)
+# config.ini
+# settings.json
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+[Tt]humbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
