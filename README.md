@@ -20,7 +20,7 @@ the BitTorrent protocol and async networking in Python.
 ## 🚀 Quick Start
 
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/torrent-client-python.git
+git clone https://github.com/sankhya007/python-torrent-client
 cd torrent-client-python
 
 # Install dependencies
@@ -39,14 +39,6 @@ Dependencies:
 
 bash
 pip install bencodepy requests
-
-## 🛠️ Project Structure
-
-torrent-client-python/
-├── torrent_client.py     # Main client implementation
-├── README.md            # This file
-├── requirements.txt     # Python dependencies
-└── downloads/          # Downloaded files directory
 
 ## 🔧 How It Works
 
